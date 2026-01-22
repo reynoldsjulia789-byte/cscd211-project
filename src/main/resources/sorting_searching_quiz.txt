@@ -1,0 +1,15 @@
+What is the purpose of having a dummy head node in a linked list?|To increase complexity|To simplify insert and remove operations|To decrease the size|To store extra data|1
+What does the Comparable interface allow objects to do?|Perform arithmetic operations|Support deep cloning|Be ordered or compared based on a specified ordering|Use default equality methods|2
+In selection sort, what does the 'min' variable track?|The smallest value found so far|The current index being sorted|The index of the minimum element in the unsorted portion|The total count of swaps|2
+What is the time complexity of selection sort?|O(n)|O(n log n)|O(n^2)|O(log n)|2
+True or False: Selection sort is considered an efficient algorithm for large datasets.|True|False|Only for sorted data|Only for linked lists|1
+What does compareTo return when the calling object is less than the argument?|A positive integer|Zero|A negative integer|It throws an exception|2
+In selection sort, after finding the minimum element, what operation occurs?|It is deleted|It is swapped with the current position|It is copied to a new array|It is printed|1
+What must be true about data before performing binary search?|Data must be unsorted|Data must be sorted|Data must contain duplicates|Data must be numeric|1
+What is the time complexity of binary search?|O(n)|O(n^2)|O(log n)|O(1)|2
+In binary search, what happens when the target is less than the middle element?|Search the right half|Search the left half|Return the middle index|Return -1|1
+What does binary search return if the element is not found?|0|The last index checked|A negative value (typically -1)|null|2
+Which sorting algorithm repeatedly finds the minimum and places it in position?|Bubble sort|Insertion sort|Selection sort|Merge sort|2
+True or False: Binary search can be used on unsorted data.|True|False|Only with integers|Only with strings|1
+What is the main advantage of binary search over linear search?|It works on unsorted data|It uses less memory|It has better time complexity O(log n)|It is easier to implement|2
+In selection sort on an array of size n, how many comparisons are made in the first pass?|1|n|n-1|n/2|2

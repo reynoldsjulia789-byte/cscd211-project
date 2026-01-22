@@ -1,0 +1,19 @@
+# Recursion Self-Assessment Quiz
+# Format: question|choice1|choice2|choice3|choice4|correctIndex
+# This quiz covers Day 10: Recursion fundamentals
+
+What is recursion in programming?|A loop that runs forever|A method that calls itself|A way to handle exceptions|A type of data structure|1
+What is the purpose of the base case in a recursive method?|To make the method run faster|To stop the recursion and prevent infinite calls|To call other methods|To initialize variables|1
+What happens if a recursive method has no base case?|It returns null|It compiles but runs slowly|It causes a StackOverflowError|It returns 0|2
+In the factorial function, what is the base case?|n equals the result|n is less than or equal to 1|n is negative|n equals 10|1
+What does the call stack do during recursion?|Stores each method call until it returns|Deletes previous method calls|Runs methods in parallel|Optimizes memory usage|0
+What is returned by factorial(0) if the base case returns 1 when n <= 1?|0|1|undefined|StackOverflowError|1
+In a recursive method, what must each recursive call do?|Return immediately|Move closer to the base case|Increase the problem size|Create new objects|1
+What is the time complexity of a simple recursive factorial function?|O(1)|O(log n)|O(n)|O(n^2)|2
+When tracing mystery(3) where mystery prints n, recurses with n-1, then prints n again, what is the output order?|1 2 3 3 2 1|3 2 1 1 2 3|3 3 2 2 1 1|1 1 2 2 3 3|1
+What causes the "unwinding" phase of recursion?|Reaching the maximum stack size|Each recursive call returning its value|The JVM garbage collector|Starting a new thread|1
+Which data structure does recursion naturally fit?|Arrays|Hash tables|Trees|Queues|2
+What is a disadvantage of recursion compared to iteration?|Cannot solve the same problems|Uses more memory due to call stack|Always runs slower|Cannot use local variables|1
+A recursive method calls itself with the same argument forever. What mistake was made?|Missing return statement|Missing base case|Problem size not reducing toward base case|Too many parameters|2
+In SkillTree.calculateTotalPointsRecursive(index), why does index increase with each call?|To skip the dummy head|To move toward the base case (index >= size)|To count backwards|To handle negative indices|1
+When should you prefer iteration over recursion?|When the problem has recursive structure|When working with trees|When deep recursion could overflow the stack|When you need divide-and-conquer|2

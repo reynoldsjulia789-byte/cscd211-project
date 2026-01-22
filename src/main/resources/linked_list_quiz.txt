@@ -1,0 +1,19 @@
+# Linked List Self-Assessment Quiz
+# Format: question|choice1|choice2|choice3|choice4|correctIndex
+# This quiz covers Days 5-6: Linked List fundamentals
+
+What is the purpose of setting head = null and size = 0 in a linked list constructor?|To initialize the list with one node|To prepare the list for garbage collection|To initialize the list as empty|To create a cyclic linked list|2
+In a linked list, if current.next equals null, what does this indicate?|The list is empty|current is the first node|current is the last node|The list has a cycle|2
+What is the time complexity of the addFirst operation in a singly linked list?|O(1)|O(n)|O(log n)|O(n^2)|0
+What is the time complexity of the addLast operation when you only have a head reference?|O(1)|O(n)|O(log n)|O(n^2)|1
+Which field(s) does a Node in a singly linked list typically contain?|Only data|Only a next pointer|Both data and a next pointer|Data, next pointer, and previous pointer|2
+Why might addLast call addFirst when size equals 0?|To avoid null pointer exceptions|Because an empty list has no last node to append after|To improve performance|To maintain backwards compatibility|1
+What happens to the old head when addFirst is called on a non-empty list?|It is deleted|It becomes the second node|It remains the first node|It is moved to the end|1
+Why do we track size as a field rather than counting nodes each time?|To save memory|To enable O(1) size queries instead of O(n) traversal|To prevent integer overflow|To support negative indices|1
+When traversing a linked list to find the last node, what condition do we check?|current == null|current.data == null|current.next == null|current == head|2
+What is a key advantage of linked lists over arrays?|Faster random access|Constant time insertion at the front|Less memory usage|Simpler implementation|1
+In the expression Node<T>, what does T represent?|A specific type like String|A type parameter that will be specified at instantiation|The total number of nodes|A throwable exception type|1
+What keyword makes a nested Node class belong to the outer class rather than instances?|final|private|static|abstract|2
+If you call get(5) on a linked list with 3 elements, what should happen?|Return null|Return the last element|Throw IndexOutOfBoundsException|Return the first element|2
+After removing the head node, what becomes the new head?|null|The last node|What was previously head.next|A new empty node|2
+What does the contains(item) method need to do?|Check if head equals item|Traverse the list comparing each node's data to item|Return the index of item|Sort the list then binary search|1

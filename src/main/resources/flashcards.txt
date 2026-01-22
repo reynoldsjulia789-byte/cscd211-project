@@ -1,0 +1,10 @@
+What is encapsulation?;Hiding internal state behind methods
+What is polymorphism?;Using parent type to reference child objects
+What is inheritance?;Child class extends parent class (is-a relationship)
+What is a constructor?;Special method that initializes new objects
+What is an abstract class?;A class that cannot be instantiated directly
+What is an interface?;A contract that defines method signatures
+What is a linked list?;A data structure where elements point to the next
+What is recursion?;A method that calls itself with a smaller problem
+What is TDD?;Test-Driven Development - write tests before implementation
+What is MVC?;Model-View-Controller architecture pattern

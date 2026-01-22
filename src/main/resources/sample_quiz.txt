@@ -1,0 +1,14 @@
+# Sample Quiz File
+#
+# Format: question|choice1|choice2|...|correctIndex
+# Lines starting with # are not supported (will be skipped as malformed)
+# Empty lines are skipped
+
+What is the primary benefit of encapsulation?|Faster execution|Data hiding and protection|Reduced memory usage|Easier debugging|1
+Which keyword declares a constant in Java?|const|final|static|immutable|1
+What does OOP stand for?|Object Oriented Programming|Only One Parameter|Open Object Protocol|Order Of Precedence|0
+In Java, which access modifier makes a field visible only within the same class?|public|protected|private|default|2
+What is the correct way to declare an ArrayList of Strings?|ArrayList<String> list = new ArrayList<>();|ArrayList list = new ArrayList<String>();|ArrayList<String> list = new ArrayList<String>();|All of the above|3
+Which method is called when an object is created?|initializer|constructor|creator|builder|1
+What is the result of 5 / 2 in Java (integer division)?|2.5|2|3|2.0|1
+Which loop is guaranteed to execute at least once?|for|while|do-while|foreach|2

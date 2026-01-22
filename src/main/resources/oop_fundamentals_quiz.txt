@@ -1,0 +1,15 @@
+What are the four pillars of Object-Oriented Programming?|Inheritance, Encapsulation, Polymorphism, Composition|Inheritance, Encapsulation, Polymorphism, Abstraction|Inheritance, Composition, Polymorphism, Data Hiding|Encapsulation, Abstraction, Data Types, Polymorphism|1
+What keyword is used in Java to inherit from a class?|implements|inherits|extends|uses|2
+In Java, what reference is used in a subclass to call the superclass constructor?|this|super|parent|base|1
+True or False: In Java, a class can extend multiple classes simultaneously.|True|False|Only with interfaces|Only abstract classes|1
+If no visibility modifier is specified for a class member, what is the default access level?|public|private|protected|package-private (default)|3
+Which keyword is used to implement an interface in Java?|extends|implements|inherits|uses|1
+What is it called when a subclass provides its own implementation of a method defined in its parent class?|Method overloading|Method overriding|Method hiding|Method replacing|1
+In the Animal/Dog example, if Dog extends Animal and both have a makeSound() method, which version runs when calling makeSound() on a Dog object?|The Animal version|The Dog version|Both versions|Neither version|1
+What does the @Override annotation indicate?|The method is new|The method replaces a parent method|The method is abstract|The method is final|1
+Which OOP principle hides internal state and requires interaction through public methods?|Abstraction|Inheritance|Encapsulation|Polymorphism|2
+Which OOP principle allows a single interface to represent objects of different classes?|Abstraction|Inheritance|Encapsulation|Polymorphism|3
+In FlashcardModule extends LearningModule, which is the subclass?|LearningModule|FlashcardModule|Both|Neither|1
+What happens if you forget to call super() in a subclass constructor when the parent has no default constructor?|Nothing|Runtime error|Compilation error|Warning only|2
+Which access modifier allows access from subclasses but not from unrelated classes?|public|private|protected|default|2
+What is the relationship called when class Dog extends class Animal?|Association|Composition|Aggregation|Inheritance (is-a)|3
