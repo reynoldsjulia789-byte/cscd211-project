@@ -5,4 +5,4 @@ in preparation to test out of the course.
 
 ## Plans
 - continue to update the UI for this project as I am currently unhappy with how it looks
-- figure out why there is a "JavaFX runtime components are missing" error when attempting to run main
+- figure out why "WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @33108e58'" occurs when running
