@@ -4,4 +4,5 @@ a project that helped me reinforce the concepts for CSCD 211 (Programming Princi
 in preparation to test out of the course.
 
 ## Plans
-I plan to continue to update the UI for this project as I am currently unhappy with how it looks.
+- continue to update the UI for this project as I am currently unhappy with how it looks
+- figure out why there is a "JavaFX runtime components are missing" error when attempting to run main
